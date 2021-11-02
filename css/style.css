@@ -15,8 +15,10 @@
 
 .grid {
     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     width: 500px;
-    height: 500px;
+    height: auto;
     background-color: aqua;
 }
 
@@ -28,6 +30,6 @@
 }
 
 .selection_square {
-    background-color: white;
+    background-color: aqua;
     border: 2px solid black;
 }
