@@ -23,7 +23,19 @@
 }
 
 .square {
-    width: calc(100% / 8);
+    width: calc(100% / 10);
+    height: 50px;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+.square1 {
+    width: calc(100% / 9);
+    height: 50px;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+.square2 {
+    width: calc(100% / 7);
     height: 50px;
     background-color: darkblue;
     border: 2px solid white;
