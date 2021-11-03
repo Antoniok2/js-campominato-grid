@@ -20,13 +20,14 @@ if (choiseDifficult === difficolta[0]) {
 }
 
 // CICLO DOPO LA SCELTA DELLA DIFFICOLTA
-for (i = 0; i < numeroBlocchi; i++) {
+for (i = 1; i <= numeroBlocchi; i++) {
     let newElement = generaElemento("div", defaultClass);
     newElement.addEventListener('click', 
         function() {
         this.classList.add("selection_square");
         }
     );
+    newElement.innerText = i;
     gridCont.appendChild(newElement);
 }
 
